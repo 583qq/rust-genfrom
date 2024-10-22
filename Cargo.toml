@@ -1,0 +1,17 @@
+[package]
+name = "gen_from"
+version = "0.0.1"
+edition = "2021"
+description = "Crate that helps to generate From implementation for your struct."
+authors = []
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "2.0.82", features = ["parsing"] }
+quote = "1.0.37"
+proc-macro2 = "1.0.88"
+
+[features]
+show-expansion = []
