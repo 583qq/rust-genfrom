@@ -9,7 +9,7 @@ authors = []
 proc-macro = true
 
 [dependencies]
-syn = { version = "*", features = ["parsing"] }
+syn = { version = "*" }
 quote = "*"
 proc-macro2 = "*"
 
