@@ -23,6 +23,6 @@ You can generate ```From<MyStructA> for MyStructB``` trait:
 ```
 
 Then just do something like:
-```
+```rust
 let b: MyStructB = a.into();
 ```
