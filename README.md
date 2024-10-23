@@ -1,6 +1,6 @@
 # GenFrom Macro
 
-You can generate From < MyStructA > for MyStructB trait:
+You can generate ```rust From<MyStructA> for MyStructB``` trait:
 
 ```rust
     #[derive(Debug)]
